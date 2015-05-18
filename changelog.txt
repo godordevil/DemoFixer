@@ -1,0 +1,21 @@
+
+v1.4 - 11-03-31
+===========================
+	- Fixed:	Bit sizes were incorrect on some entity fields, resulting bad entity states for certain custom gametypes (Domination). 
+
+v1.3 - 11-03-18
+===========================
+	- Reverted:	The fixed demo will once again be suffixed with _df to help with confusion of which demos are and are not fixed.
+	- Updated:  Removed Server and Entity info from echoing to the console to speed up the process.
+				
+v1.2 - 11-03-08			
+===========================
+	- Updated:	The original demo file will now be stored in a sub directory named 'originals'.
+				The fixed demo will maintain the original name of the demo and no longer be suffixed with _df.
+	
+v1.1 - 11-03-07
+===========================
+	- Fixed:	Spaces in directories and file names should be handled properly now.
+	- Fixed:	Demos now exit to the main menu after playback - avoiding the endless loop.
+	
+	
